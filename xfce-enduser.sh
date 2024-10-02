@@ -43,7 +43,6 @@ rc-update add eudev
 rc-update add fuse
 rc-update add seatd
 rc-update add upowerd
-rc-update add udisks2
 rc-update add hostname
 rc-update add wpa_supplicant
 rc-update add networkmanager
