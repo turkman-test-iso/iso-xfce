@@ -11,7 +11,7 @@ ymp repo --update --allow-oem --ignore-gpg
 ymp it xinit xorg-server xterm freetype xauth xkbcomp xkeyboard-config @x11.drivers --no-emerge --allow-oem
 ymp it elogind shadow pipewire wireplumber libtool firefox-installer inxi tzdata fuse fuse2 flatpak --no-emerge --allow-oem
 ymp it @xfce xfce4-screenshooter xfce4-battery-plugin xfce-polkit xfce4-pulseaudio-plugin xfce4-terminal xfce4-whiskermenu-plugin mousepad ristretto --no-emerge --allow-oem
-ymp it caribou dejavu adwaita-icon-theme gsettings-desktop-schemas libhandy nm-applet seatd touchegg --no-emerge --allow-oem
+ymp it caribou dejavu adwaita-icon-theme gsettings-desktop-schemas libhandy nm-applet gvfs seatd touchegg --no-emerge --allow-oem
 ymp it gnome-icon-theme gnome-themes-standard lightdm lightdm-gtk-greeter --no-emerge --allow-oem
 # fstab add tmpfs
 echo "tmpfs /tmp tmpfs rw 0 0" > /etc/fstab
